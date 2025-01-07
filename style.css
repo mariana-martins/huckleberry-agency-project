@@ -10,3 +10,81 @@ body {
 }
 
 /* Add styles here! */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add styles here! */
+
+header {
+  border-bottom: 8px solid hsla(0, 0%, 60%);
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 32px 0;
+  padding-inline: 24px;
+}
+
+p {
+  padding-inline: 24px;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  margin: 24px 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+p strong {
+  color: hsla(160, 100%, 30%, 1);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+  padding: 64px 0;
+}
+
+h2 {
+  width: fit-content;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  margin: 0;
+  margin-left: -32px;
+  margin-top: -12px;
+  margin-bottom: 16px;
+  padding: 16px 32px;
+  background-color: hsla(45, 100%, 50%, 1);
+  border-bottom: 8px solid hsla(45, 100%, 40%, 1);
+  margin-block: 0;
+}
+
+.max-width-wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 24px;
+}
+
+.intro-chunk {
+  max-width: 460px;
+  margin: 0;
+  padding-top: 96px;
+  padding-bottom: 64px;
+}
+
+.card {
+  background-color: hsla(0, 0%, 100%, 1);
+  border-bottom: 8px solid hsla(0, 0%, 60%);
+  padding: 24px;
+  margin: 0 -24px;
+}
